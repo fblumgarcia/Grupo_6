@@ -1,39 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <div class="container_registro">
-        <header class="header">Regístrate al portal de "nombre empresa"</header>        
-        <div class="content1">
-            <form id="form_registro_usuario_1" action="">
-                <label for="nombre">Ingrese su nombre completo: </label>
-                <input type="text" id="nombre"><br><br>
-                <label for="correo">Ingrese su correo: </label>
-                <input id="correo" type="email"><br><br>
-                <label for="">Seleccione género: </label>           
-                <label for=""> <input type="radio"  name="Genero" checked> Masculino</label>
-                <label for=""> <input type="radio"  name="Genero" > Femenino</label>
-                <label for=""> <input type="radio"  name="Genero"> Otro</label>
-            </form>
-        </div>
-        <div class="content2">
-            <form id="form_registro_usuario" action="">
-                <label for="in_usuario">Ingrese nombre de usuario: </label>
-                <input id="in_usuario" type="text"><br><br>
-                <label for="in_contrasena">Ingrese la contraseña: </label>
-                <input id="in_contrasena" type="password"><br><br>
-                <label for="in_contrasena2">Por favor repita la contraseña: </label>
-                <input id="in_contrasena2" type="password"><br><br>
-                <button id="btn_enviar_registro" type="submit">Registrar</button>
-            </form>
-        </div>
-        <footer class="footer">Contactos, copyright</footer>
-    </div>
+    <header class="header">Regístrate al portal de "nombre empresa"</header>        
+        <form id="form_registro_usuario" action="">
+            <label for="in_usuario">Ingrese nombre de usuario: </label>
+            <input id="in_usuario" type="text" placeholder="Juan Perez"><br><br>
+            <label for="in_contrasena">Ingrese la contraseña: </label>
+            <input id="in_contrasena" type="password" placeholder="contraseña"><br><br>
+            <button id="btn_enviar_registro" type="submit">Registrar</button>
+        </form>
+       <footer class="footer">Contactos, copyright</footer>    
 </body>
 </html>
