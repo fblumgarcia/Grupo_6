@@ -3,13 +3,18 @@ let registros2 = [];
 
 function agregarRegistro(){
     //codigo
-    registros.push(document.getElementById("in_usuario").value, document.getElementById("in_contrasena").value);
+    let registro={
+       "usuario":document.getElementById("in_usuario").value,
+       "contrasena":document.getElementById("in_contrasena").value
+    };
+    registros.push(registro);
     console.log(registros);
-    filtrarPorContrasena(registros, 5);
+    //filtrarPorContrasena(registros, 5);
 }
 
 function filtrarPorContrasena(registros, filtro){
      //codigo
+     
      registros2 = []
      for (let i = 1, registro; registro = registros[i]; i++) {
          if (registros[i].length <= filtro){
@@ -19,8 +24,9 @@ function filtrarPorContrasena(registros, filtro){
             i++;
          }
       }
-     console.log(registros2)
-}
+      console.log(registros2);
+      return registros2;
+    }
 
 
 module.exports.registros = registros;
