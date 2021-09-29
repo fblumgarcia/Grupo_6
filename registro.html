@@ -2,13 +2,17 @@
 <head>
     <title>Registro</title>
     <link rel="stylesheet" href="estilos.css">
-    <script src="validaciones.js"></script>
+    
 </head>
 <body>      
-        <form id="form_registro_usuario">
+    <!--    <form id="form_registro_usuario"> -->
            Nombre <input id="in_usuario">
            Contrasena <input type="password" id="in_contrasena">
-            <button id="btn_enviar_registro" onclick ='validar_nombreUsuario(in_usuario.value);validar_contrasena(in_contrasena.value);'>Registrar</button>
-        </form>   
+     <!--      <button id="btn_enviar_registro" onclick ='validar_nombreUsuario(in_usuario.value);validar_contrasena(in_contrasena.value);agregarRegistro();'>Registrar</button>
+         -->  <button id="btn_enviar_registro" onclick ="agregarRegistro()">Registrar</button>
+        <!-- </form>    -->
 </body>
+<script type="text/javascript" src="validaciones.js"></script>
+    <script type="text/javascript" src="registro.js"></script>
+
 </html>
