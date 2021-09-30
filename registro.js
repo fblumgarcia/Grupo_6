@@ -4,10 +4,10 @@ let registros2 = [];
 function agregarRegistro(){
     //codigo
     let registro={
-       "usuario":document.getElementById("in_usuario").value,
+       "usuario":document.getElementById("in_usuario").value,//Se define usuario y contraseña y se ingresa valor
        "contrasena":document.getElementById("in_contrasena").value
     };
-    registros.push(registro);
+    registros.push(registro);//Se agrega al array registros
     console.log(registros);
     //filtrarPorContrasena(registros, 5);
 }
@@ -15,17 +15,9 @@ function agregarRegistro(){
 function filtrarPorContrasena(registros, filtro){
      //codigo
      
-     registros2 = []
-     for (let i = 1, registro; registro = registros[i]; i++) {
-         if (registros[i].length <= filtro){
-            registros2.push(registros[i-1], registros[i])
-            i++;
-         }else{
-            i++;
-         }
-      }
-      console.log(registros2);
-      return registros2;
+     registros2 = registros.filter(registro=>registro.contrasena.length<=filtro)//Se filtra por longitud de contraseña y se agrega al array registros2
+      console.log(registros2);//Para imprimir
+      return registros2;//Y el retorno que piden
     }
 
 
