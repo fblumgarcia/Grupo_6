@@ -1,1 +1,1 @@
-SELECT usuario, contrasena FROM `usuarios`
+SELECT * FROM `usuarios`
