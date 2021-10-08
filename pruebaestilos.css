@@ -8,16 +8,17 @@
 }
 
 .header{
-    position: static;
+    position: relative;
     background: #ff8000;
-    background:url(../img/headerEdit.png);
+    background:url(./img/headerEdit.png);
     background-repeat: no-repeat;
-    background-position-x: 0px;
+    background-position-x: 400px;
 
     background-size: 100% 100%;
 
    
-   
+    grid-column-gap: 3rem;
+    
      
     grid-column-start: 1;
     grid-column-end: 3;
