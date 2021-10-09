@@ -1,0 +1,105 @@
+*{
+    text-align: justify;
+}
+#mision__vision{
+    display: flex;  
+    width: 100%;  
+}
+#mision__vision article{
+    margin: 10px;
+    border: 2px solid rgb(140, 100, 80);
+    padding: 0 15px;
+    width: 50%;
+}
+#vision{
+    background: linear-gradient(to bottom,transparent,rgb(83,179,231)) ;
+}
+#mision{
+    background: linear-gradient(to top,transparent,rgb(83,179,231)) ;
+}
+#mision__vision p{
+    font-size: 7mm;
+}
+#mision:hover {
+    color: rgb(3, 90, 36);
+}
+#vision:hover{
+    color: rgb(66, 5, 128);
+}
+.title{
+    text-align: center;
+    color: rgb(70,80,250);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14mm;
+    font-style: oblique;
+    text-shadow: 2px 2px 2px lightseagreen;
+    margin-bottom: 0;
+}
+.img__val{
+    height: 150px;
+    width: 200px;
+    border-radius: 60%;
+    flex: 1;
+    align-items: flex-end;
+    box-shadow: 5px 2px 2px rgb(83, 47, 29);
+}
+.val__text{
+    display:none; 
+    width: 200px;
+    transition: all .5s;
+}
+figure:hover > .val__text{
+    display:flex;
+    flex-wrap: wrap;
+    width: 200px;
+    transition: all .5s;
+    text-align: left;
+}
+#values{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+    flex-wrap: wrap;
+    background: honeydew;
+    align-content: center;
+    border-radius: 20px;
+    border: 5px solid gray;
+    box-shadow: 2px 2px 2px grey;
+    margin: auto;
+    padding: 4px;
+}
+figcaption p{
+    font-size: 5mm;
+    color: rgb(66, 5, 128);
+}
+figcaption p b{
+    color: rgb(20,0,255);
+    text-decoration: double;
+    font-size: 7mm;
+}
+.notas{
+    text-align: center;
+    color: rgb(170,150,140);
+    text-decoration: dotted;
+    padding: 0;
+    margin-top: 0;
+}
+#history{
+    display: flex;
+}
+#texto__historia{
+    display: block;
+    width: 60%;
+    margin: 10px;
+    padding: 8px;
+    color: #532f1d;
+    font-size: 7mm;
+}
+#imagen__historia{
+    width: 30%;
+    border-radius: 30%;
+    margin: 20px;
+    padding: 10px;
+    align-content: center;
+    box-shadow: 3px 8px 0.5px rgb(3, 90, 36);
+}
+
