@@ -16,7 +16,7 @@ main{
     text-shadow: 2px 2px 2px lightseagreen;
 }
 #imagen__enc{
-    background-image: url("https://cdn.pixabay.com/photo/2015/08/27/09/22/banner-909710_1280.jpg");
+    background-image: url("https://res.cloudinary.com/dmborlypg/image/upload/v1633960863/grupo_6/nosotros_suetlx.jpg");
     border: 1px black;
     height: 400px;
     margin: 30mm auto 20mm;
