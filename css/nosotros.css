@@ -1,73 +1,85 @@
-*{
+* {
     text-align: justify;
 }
-main{
+
+main {
     background: rgb(231, 216, 203);
 }
-#titulo__principal{
+
+#titulo__principal {
     text-align: center;
     padding: 0;
     margin: 0;
     font-size: 22mm;
-    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 4px;
     display: inline-flexbox;
-    color: rgb(7,80,250);
+    color: rgb(7, 80, 250);
     text-shadow: 2px 2px 2px lightseagreen;
 }
-#imagen__enc{
+
+#imagen__enc {
     background-image: url("https://res.cloudinary.com/dmborlypg/image/upload/v1633960863/grupo_6/nosotros_suetlx.jpg");
     border: 1px black;
     height: 400px;
     margin: 30mm auto 20mm;
     background-attachment: fixed;
 }
-#mision__vision div{
-    margin:30mm auto 10mm;
+
+#mision__vision div {
+    margin: 30mm auto 10mm;
     border: 2px solid rgb(140, 100, 80);
     border-radius: 5mm;
-    width: 70%; 
+    width: 70%;
     display: flex;
     align-items: center;
 }
-#vision{
-    background: linear-gradient(to bottom,transparent,rgb(83,179,231));   
-    
+
+#vision {
+    background: linear-gradient(to bottom, transparent, rgb(83, 179, 231));
 }
-#mision{
-    background: linear-gradient(to top,transparent,rgb(83,179,231));   
+
+#mision {
+    background: linear-gradient(to top, transparent, rgb(83, 179, 231));
     display: none;
 }
-#mision__vision p{
+
+#mision__vision p {
     font-size: 7mm;
-    margin: 15px;        
+    margin: 15px;
 }
-#mision__vision h3{
+
+#mision__vision h3 {
     margin-top: 0;
     margin-left: 10px;
 }
+
 #mision:hover {
     color: rgb(3, 90, 36);
 }
-#vision:hover{
+
+#vision:hover {
     color: rgb(66, 5, 128);
 }
-#video__mv{
+
+#video__mv {
     display: flex;
     margin: auto;
     width: 100%;
 }
-.title{
+
+.title {
     text-align: center;
     letter-spacing: 8px;
-    color: rgb(70,80,250);
+    color: rgb(70, 80, 250);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14mm;
     font-style: oblique;
     text-shadow: 2px 2px 2px lightseagreen;
-   margin: 20mm auto 0;
+    margin: 20mm auto 0;
 }
-.img__val{
+
+.img__val {
     height: 150px;
     width: 200px;
     border-radius: 60%;
@@ -76,21 +88,24 @@ main{
     box-shadow: 5px 2px 2px rgb(83, 47, 29);
     cursor: all-scroll;
 }
-.val__text{
-    display:none; 
+
+.val__text {
+    display: none;
     width: 200px;
     transition: all .5s;
 }
-figure:hover > .val__text{
-    display:flex;
+
+figure:hover>.val__text {
+    display: flex;
     flex-wrap: wrap;
     width: 200px;
     transition: all .5s;
     text-align: left;
 }
-#values{
+
+#values {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     flex-wrap: wrap;
     background: honeydew;
     align-content: center;
@@ -100,26 +115,31 @@ figure:hover > .val__text{
     margin: 20mm auto 20mm;
     padding: 4px;
 }
-figcaption p{
+
+figcaption p {
     font-size: 5mm;
     color: rgb(66, 5, 128);
 }
-figcaption p b{
-    color: rgb(20,0,255);
+
+figcaption p b {
+    color: rgb(20, 0, 255);
     text-decoration: double;
     font-size: 7mm;
 }
-.notas{
+
+.notas {
     text-align: center;
     color: rgb(54, 48, 45);
     text-decoration: dotted;
     padding: 0;
     margin-top: 0;
 }
-#history{
+
+#history {
     display: flex;
 }
-#texto__historia{
+
+#texto__historia {
     display: block;
     width: 60%;
     margin: 10px;
@@ -127,10 +147,12 @@ figcaption p b{
     color: #532f1d;
     font-size: 7mm;
 }
-#texto__historia:hover{
+
+#texto__historia:hover {
     color: rgb(153, 26, 94);
 }
-#imagen__historia{
+
+#imagen__historia {
     width: 40%;
     border-radius: 30%;
     margin: 20px;
